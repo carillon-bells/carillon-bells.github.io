@@ -13,6 +13,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Westminster Chimes and Carillon Bells 8.1 portable church bell scheduling software for Windows.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Westminster Chimes and Carillon Bells">
+  <meta property="og:title" content="Westminster Chimes and Carillon Bells 8.1">
+  <meta property="og:description" content="Portable Windows church bell scheduling software with complete installation and v7.2.4 upgrade downloads.">
+  <meta property="og:url" content="https://carillon-bells.github.io/">
+  <meta property="og:image" content="https://carillon-bells.github.io/assets/main-screen.png">
+  <meta property="og:image:alt" content="Westminster Chimes and Carillon Bells 8.1 main screen">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Westminster Chimes and Carillon Bells 8.1">
+  <meta name="twitter:description" content="Portable Windows church bell scheduling software with complete installation and v7.2.4 upgrade downloads.">
+  <meta name="twitter:image" content="https://carillon-bells.github.io/assets/main-screen.png">
+  <meta name="twitter:image:alt" content="Westminster Chimes and Carillon Bells 8.1 main screen">
   <meta name="theme-color" content="#0e4d5d">
   <link rel="canonical" href="https://carillon-bells.github.io/">
   <link rel="icon" href="assets/blue-domed-church.png" type="image/png">
@@ -307,6 +319,10 @@
       background: #fff8e6;
     }
 
+    .privacy-copy {
+      max-width: 900px;
+    }
+
     .two-column {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -396,6 +412,10 @@
 
     .site-footer p {
       margin: 0;
+    }
+
+    .site-footer a {
+      color: #f3cc6c;
     }
 
     @media (max-width: 880px) {
@@ -562,7 +582,7 @@
         <div class="download-list">
           <article class="download-row">
             <h3>New or complete installation</h3>
-            <p>The full portable package includes the program, required support files, sample database, help, converter, documentation, and standard Music folder.</p>
+            <p>The full portable package includes the program, required support files, sample database, help, converter, documentation, and the standard Music folder.</p>
             <a class="button" href="https://github.com/tmartindub/Carillon8_1/releases/download/v8.1.0/CarillonBells_8_1_Portable_Full.zip">Download Full Package</a>
           </article>
           <article class="download-row">
@@ -583,7 +603,7 @@
         </div>
 
         <div class="notice">
-          <strong>Portable setup:</strong> Extract the package, copy its contents to the root of a USB flash drive, and start Carillon from that drive using <code>start_carillon.vbs</code> or <code>Carillon.exe</code>. Windows 10 or later is recommended.
+          <strong>New-installation setup:</strong> Extract the full portable package, copy its contents to the root of a USB flash drive, and start Carillon from that drive using <code>start_carillon.vbs</code> or <code>Carillon.exe</code>. For an existing v7.2.4 installation, use the upgrade package and run its database converter before starting Carillon 8.1. Windows 10 or later is recommended.
         </div>
       </div>
     </section>
@@ -598,7 +618,7 @@
         </div>
         <div>
           <h2>Hear the sound</h2>
-          <p>These sample recordings open separately so you can hear the character of Westminster chimes and traditional carillon music.</p>
+          <p>Use these sample recordings to hear the character of Westminster chimes and traditional carillon music.</p>
           <ul class="sample-list">
             <li><a href="https://static.wixstatic.com/mp3/015e9d_eb036993d99f4b89a6fea1aa9739da0a.mp3">Westminster Chimes - Five O'Clock Strike</a></li>
             <li><a href="https://static.wixstatic.com/mp3/015e9d_ea38d14460bf4cc8b1fa907db9fe9404.mp3">Carillon Hymn - Nearer My God To Thee</a></li>
@@ -640,10 +660,19 @@
           <p>Westminster Chimes and Carillon Bells works with most Windows sound cards and conventional amplifiers and speakers. Organizations replacing older bell software can often keep their existing audio hardware.</p>
         </div>
         <div>
-          <h2>Portable and free</h2>
-          <p>No traditional installer is required. The application runs from a USB flash drive, stores its database and supporting files with the program, and remains free to use and share with no subscription or premium tier.</p>
+          <h2>Portable, free, and open source</h2>
+          <p>No traditional installer is required. The application runs from a USB flash drive, stores its database and supporting files with the program, and remains free to use and share with no subscription or premium tier. The software is available under the <a href="https://github.com/tmartindub/Carillon8_1/blob/main/LICENSE">MIT License</a>.</p>
           <p><a class="button button-outline" href="downloads.html#software">Choose a Software Download</a></p>
         </div>
+      </div>
+    </section>
+
+    <section class="content-section alt" id="privacy">
+      <div class="section-inner privacy-copy">
+        <p class="eyebrow">Privacy and analytics</p>
+        <h2>How this website handles information</h2>
+        <p>This website uses Google Analytics to understand visits and page usage. Google may process device, browser, and approximate location information under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. This website does not require user accounts, accept payments, or collect information through web forms.</p>
+        <p>If you send email or follow links to GitHub, Dropbox, or another external service, that provider handles the information under its own privacy policy.</p>
       </div>
     </section>
 
@@ -665,7 +694,7 @@
   <footer class="site-footer">
     <div class="footer-inner">
       <p>Westminster Chimes &amp; Carillon Bells v8.1 Portable Edition</p>
-      <p>&copy; 2026 Westminster Chimes and Carillon Bells. All rights reserved.</p>
+      <p>&copy; 2026 Westminster Chimes and Carillon Bells. <a href="https://github.com/tmartindub/Carillon8_1/blob/main/LICENSE">MIT License</a> &middot; <a href="#privacy">Privacy &amp; analytics</a></p>
     </div>
   </footer>
 </body>
