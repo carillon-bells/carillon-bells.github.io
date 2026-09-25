@@ -323,6 +323,28 @@
       padding: 3rem 0 1rem;
     }
 
+    .release-warning {
+      padding: 1.25rem 0;
+      border-bottom: 1px solid #e2b7ae;
+      color: #57251e;
+      background: #fff1ed;
+    }
+
+    .release-warning .section-inner {
+      padding-left: 1rem;
+      border-left: 5px solid #a33124;
+    }
+
+    .release-warning h2 {
+      margin: 0;
+      font-size: clamp(1.25rem, 2.5vw, 1.65rem);
+      line-height: 1.3;
+    }
+
+    .release-warning p {
+      margin: 0.65rem 0 0;
+    }
+
     .privacy-copy {
       max-width: 900px;
     }
@@ -520,6 +542,15 @@
   </header>
 
   <main id="main-content">
+    <section class="release-warning" id="playback-warning" aria-labelledby="playback-warning-title">
+      <div class="section-inner">
+        <h2 id="playback-warning-title">Important playback warning - September 25, 2026</h2>
+        <p>Unexpected shutdowns during scheduled audio playback have been reported with the September 23 maintenance update for <span class="notranslate" translate="no">Westminster Chimes and Carillon Bells 8.1</span>. If the program closes, subsequent scheduled bells will not play unless the program is restarted. The cause is under investigation; a verified correction is not yet available.</p>
+        <p><strong>Please postpone installing this update.</strong> If you have already installed it, do not rely on unattended scheduled playback until this issue is resolved. Restarting the program is not a confirmed fix. Keep your existing database, schedules, settings, and backups.</p>
+        <p><strong>This warning takes precedence over the download and update recommendations below.</strong> We will update this notice when a verified replacement is available.</p>
+      </div>
+    </section>
+
     <section class="hero" id="top" aria-labelledby="hero-title">
       <div class="hero-inner">
         <p class="eyebrow">Portable Windows bell software for churches and organizations</p>
